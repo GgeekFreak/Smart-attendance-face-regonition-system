@@ -1,0 +1,17 @@
+CREATE TABLE `users_user` (
+  `user_id` int(11) NOT NULL DEFAULT '0' ,
+  `user_level_id` int(11) NOT NULL  DEFAULT '0' ,
+  `user_username` varchar(255) NOT NULL DEFAULT '',
+  `user_password` varchar(255) NOT NULL DEFAULT '',
+  `user_name` varchar(255) NOT NULL DEFAULT '' ,
+  `user_add1` varchar(255) NOT NULL DEFAULT '' ,
+  `user_add2` varchar(255) NOT NULL DEFAULT '' ,
+  `user_city` int(11) NOT NULL DEFAULT '0' ,
+  `user_state` int(11) NOT NULL DEFAULT '0' ,
+  `user_country` int(11) NOT NULL DEFAULT '0' ,
+  `user_email` varchar(255) NOT NULL DEFAULT '',
+  `user_mobile` varchar(255) NOT NULL DEFAULT '',
+  `user_gender` varchar(255) NOT NULL DEFAULT '' ,
+  `user_dob` varchar(255) NOT NULL DEFAULT '',
+  `user_image` varchar(255) NOT NULL DEFAULT '' 
+);
